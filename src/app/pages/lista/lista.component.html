@@ -1,0 +1,9 @@
+<div>
+    <h3>Lista</h3>
+   <ul>
+    <li *ngFor="let usuario of usuarios">
+        {{usuario.name | json}}
+        {{usuario.website | json}}
+    </li>
+   </ul>
+</div>
